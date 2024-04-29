@@ -1,0 +1,6 @@
+docs/
+data/
+.DS_Store
+__pycache__
+src/test.py
+src/data_preparation.py
