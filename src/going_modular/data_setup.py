@@ -30,7 +30,7 @@ default_train_transforms = transforms.Compose([transforms.RandomHorizontalFlip()
                                                transforms.ToTensor()])
 
 
-def create_auto_transforms(model: torch.nn.Module) -> List[transforms.Compose]:
+def create_auto_transforms(model_name: str) -> List[transforms.Compose]:
   '''
   '''
   print("[INFO] create_auto_transforms function incomplete")
